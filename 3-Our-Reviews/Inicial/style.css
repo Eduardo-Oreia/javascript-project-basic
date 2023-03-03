@@ -10,7 +10,7 @@ body{
     align-items: center;
 
     height:100vh;
-    /* background: rgba(169, 169, 169, 0.568); */
+    /* background: rgba(169, 169, 169, 0.568); **/
     background-image: url(/img/wall2.png);
     background-size: contain;
     background-position: center;
