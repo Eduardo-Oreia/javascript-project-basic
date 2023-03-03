@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(211, 8, 218);
+}
+
+.boxCrono{
+    width: 300px;
+    height: 150px;
+    /* background-color: black; */
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px 0;
+}
+.boxCrono h1{
+    color: white;
+}
+
+.btn-box{
+    padding: 20px;
+}
+
+.btnS{
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+}
+.btnP{
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: darkgray;
+    border: none;
+    cursor: pointer;
+}
+.btnR{
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
+
+.btnS:hover{
+    box-shadow: 0 0 2px 0 black;
+}
+.btnP:hover{
+    box-shadow: 0 0 1px 0 black;
+}
+.btnR:hover{
+    box-shadow: 0 0 1px 0 black;
+}
