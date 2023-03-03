@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height:100vh;
+    /* background: rgba(169, 169, 169, 0.568); */
+    background-image: url(/img/wall2.png);
+    background-size: contain;
+    background-position: center;
+}
+
+:root{
+    --verde: #41C85A;
+    --verde2: #62C975;
+    --preto: #1D1D1D;
+    --branco: #EAEAEA;
+}
+
+.container{
+    background: var(--branco);
+    width: 300px;
+    min-height: 380px;
+    padding: 20px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+
+    box-shadow: 0 0 10px 1px black;
+}
+
+.container > p{
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+.person img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+    border-radius: 50%;
+    border-right: 4px solid var(--verde);
+    box-shadow: 2px 2px 5px 0  var(--preto);
+}
+
+.container h3{
+    padding: 5px 0;
+}
+
+.container h4{
+    color: var(--verde2);
+}
+
+
+/* Style button previous e next */
+
+.btn-next{
+    color: var(--verde);
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.btn-previous{
+    color: var(--verde);
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.btn-next:hover{
+    color: #41c85a8c;
+}
+.btn-previous:hover{
+    color: #41c85a8c;
+}
