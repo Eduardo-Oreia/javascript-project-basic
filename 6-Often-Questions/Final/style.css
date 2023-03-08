@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #B89168;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.questions{
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+}
+
+/* -------------title Often Questions----------- */
+.title {
+    margin: 20px 0;
+    font-size: 25px;
+}
+.title h2{
+    color: #4C2B18;
+}
+
+/* -----------Question and button------------ */
+.question{
+    background-color: #E6CFC9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.question-title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #4C2B18;
+    transition: 500ms ease-in-out;
+}
+
+.question-btn:hover{
+    color: #FAF2E0;
+}
+
+
+/* -----------Question Text------------ */
+.question-text{
+    margin: 10px;
+   display: none;
+   text-align: start;
+}
+
+.show-text .question-text{
+    display: block;
+}
+
+.minus-icon{
+    display: none;
+}
+
+.show-text .minus-icon{
+    display: block;
+}
+.show-text .plus-icon{
+    display: none;
+}
